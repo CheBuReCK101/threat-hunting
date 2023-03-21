@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2023-03-21-13-18-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1679418394.031895	CSEHGf1zzRNScPqJOl	192.168.1.109	52378	192.168.1.115	7000	tcp	HTTP	not a http reply line
+1679418706.954930	CvG0QlalDplgz6Yk9	192.168.1.142	58859	192.168.1.115	7000	tcp	HTTP	not a http reply line
+1679418714.528199	CC3d3L3pN7yncKdzsd	192.168.1.109	52381	192.168.1.115	7000	tcp	HTTP	not a http reply line
+#close	2023-03-21-13-18-10

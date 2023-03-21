@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2023-03-21-13-18-09
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1679418194.015931	F2GXVh4aWeFuEhFmTk	CRkPUQ1SGnxnwE0nUe	192.168.1.115	51588	184.85.148.12	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+1679418204.574444	FsULrH4DgvQhb628i	CwUlPz7PNCR3OFoYl	192.168.1.115	51601	184.85.148.12	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	471	-	0	0	F	-	-	-	-	-	-	-
+1679418302.988548	F4xnf83DhUqPg4Gsz8	Cnn11O2O5TYt77e98f	192.168.1.115	51663	80.66.90.77	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418302.990743	F1PDxuymTrdWeoS51	Cxkhis4xqM5aQfNqn3	192.168.1.115	51664	80.66.90.77	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418377.521646	FlANec4alarxFGG8c7	CzZARwNAwhHtitymk	192.168.1.115	51706	80.66.90.77	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418384.153508	Fn2XJw4glG6nl3qhW8	C0u2Qw4hyhK03ykMBb	192.168.1.115	51713	209.85.233.94	80	HTTP	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	472	472	0	0	F	-	-	-	-	-	-	-
+1679418488.673856	FcQzaU1etLwY4E3ykk	C7aLvM3fx6ObKNJFlk	192.168.1.115	51819	104.87.177.147	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1679418494.793154	FdtE3q1Z5l9nZnbmod	CTC6Pe25CXfr7nY1j8	192.168.1.115	51834	17.250.84.18	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	1459	-	0	0	F	-	-	-	-	-	-	-
+1679418539.704073	FH7kEbYiXjWogGPNb	C3xM4H2SE1qMldpSV2	192.168.1.115	51901	78.155.192.11	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	1423	-	0	0	F	-	-	-	-	-	-	-
+1679418540.581966	FQB7UP1eQwydFdv7o	C30qfQ3siRSRIBIO23	192.168.1.115	51914	62.210.200.108	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418540.585782	FLfYXv2EQHEwWn8gmg	CL8mho3YWuV7CwZSnf	192.168.1.115	51913	62.210.200.108	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418540.590068	FGZx2u1nt94ep2KLxi	CPSCsV2MkX5r7KpVg6	192.168.1.115	51912	62.210.200.108	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418540.605222	F8iGT23G3OrHQ7od43	Cgx0wy3UeU0HdBap37	192.168.1.115	51911	62.210.200.108	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418540.857501	F8Ooi34GyRmxq4bkO5	Cs3RkY3uFLq6kghro2	192.168.1.115	51917	62.210.200.108	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	-	F	503	-	0	0	F	-	-	-	-	-	-	-
+1679418663.974090	FBNOB52hkIpd71X6qb	CnoyqC21OIK2L6w4X1	192.168.1.115	52029	104.18.21.226	80	HTTP	0	(empty)	-	-	0.000361	-	F	1105	1105	0	0	F	-	-	-	-	-	-	-
+#close	2023-03-21-13-18-10

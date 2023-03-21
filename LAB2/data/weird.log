@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2023-03-21-13-18-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1679418192.020893	CnYbb43UfgWDgSRk3i	192.168.1.115	51499	188.114.99.224	443	window_recision	-	F	zeek	-
+1679418203.029247	CbP7Dk3nb3ctvBtAok	192.168.1.115	57718	77.74.181.36	443	window_recision	-	F	zeek	-
+1679418210.074368	C3fM0I2T9X8dMLieyb	192.168.1.115	51359	149.154.167.50	443	window_recision	-	F	zeek	-
+1679418211.078960	C1kzoF21BIctj2E1p4	192.168.1.115	49625	17.57.146.141	5223	window_recision	-	F	zeek	-
+1679418394.031895	CSEHGf1zzRNScPqJOl	192.168.1.109	52378	192.168.1.115	7000	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1679418565.079208	CAJfdx1ToFe7PopNUf	192.168.1.115	51862	95.142.204.174	443	window_recision	-	F	zeek	-
+1679418565.079806	CMQGCBmEYMxY7hrW7	192.168.1.115	51863	95.142.204.185	443	window_recision	-	F	zeek	-
+1679418706.954930	CvG0QlalDplgz6Yk9	192.168.1.142	58859	192.168.1.115	7000	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+1679418714.528199	CC3d3L3pN7yncKdzsd	192.168.1.109	52381	192.168.1.115	7000	line_terminated_with_single_CR	-	F	zeek	CONTENTLINE
+#close	2023-03-21-13-18-10

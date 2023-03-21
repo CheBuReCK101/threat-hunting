@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2023-03-21-13-18-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1679418332.993710	Cbh6454QuSFamWsc9c	192.168.1.115	51690	64.233.164.94	80	1	GET	www.gstatic.com	/generate_204	-	1.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1679418384.131811	C0u2Qw4hyhK03ykMBb	192.168.1.115	51713	209.85.233.94	80	1	GET	ocsp.pki.goog	/gts1c3/MFAwTjBMMEowSDAHBgUrDgMCGgQUxy55it3/YTSzuu1HQri7xsAkB2MEFIp0f6+Fze6VzT2c0OJGFPNxNR0nAhEA/uQ/1jCWNgYKStSzGLjBbA==	-	1.1	com.apple.trustd/3.0	-	0	472	200	OK	-	-	(empty)	-	-	-	-	-	-	Fn2XJw4glG6nl3qhW8	-	application/ocsp-response
+1679418394.003201	CSEHGf1zzRNScPqJOl	192.168.1.109	52378	192.168.1.115	7000	1	GET	-	/info?txtAirPlay&txtRAOP RTSP/1.	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1679418663.954998	CnoyqC21OIK2L6w4X1	192.168.1.115	52029	104.18.21.226	80	1	GET	secure.globalsign.com	/cacert/gsalphasha2g2r1.crt	-	1.1	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0	-	0	1105	200	OK	-	-	(empty)	-	-	-	-	-	-	FBNOB52hkIpd71X6qb	-	-
+1679418706.906708	CvG0QlalDplgz6Yk9	192.168.1.142	58859	192.168.1.115	7000	1	GET	-	/info?txtAirPlay&txtRAOP RTSP/1.	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1679418714.498440	CC3d3L3pN7yncKdzsd	192.168.1.109	52381	192.168.1.115	7000	1	GET	-	/info?txtAirPlay&txtRAOP RTSP/1.	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2023-03-21-13-18-10
