@@ -1,5 +1,10 @@
-LAB1
-================
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# LAB1
 
 # Название
 
@@ -17,12 +22,12 @@ LAB1
 
 ## План
 
-1.  ️Выполнить команду system(“sw_vers”)
+1.  ️Выполнить команду system("sw_vers")
 
 2.  Выполнить команду **`systeminfo`** с ключом **`/fo CSV`**
 
-3.  Выполнить команду system(“log show --predicate ‘subsystem ==
-    \\“com.apple.securityd\\”’ --last 1m”)
+3.  Выполнить команду system("log show --predicate 'subsystem ==
+    \\"com.apple.securityd\\"' --last 1m")
 
 ## Шаги
 
@@ -41,8 +46,8 @@ LAB1
         [6] "Secure Virtual Memory: Enabled"      
         [7] "Time since boot: 14 дней 53 минуты"  
 
-2\. Далее команда system(“sysctl -n machdep.cpu.brand_string
-machdep.cpu.core_count machdep.cpu.thread_count”)  
+2\. Далее команда system("sysctl -n machdep.cpu.brand_string
+machdep.cpu.core_count machdep.cpu.thread_count")\
 Эта команда выведет следующую информацию о процессоре:
 
 -   **`machdep.cpu.brand_string`** - название процессора;
@@ -56,8 +61,8 @@ machdep.cpu.core_count machdep.cpu.thread_count”)
 system("sysctl -n machdep.cpu.brand_string machdep.cpu.core_count machdep.cpu.thread_count")
 ```
 
-3\. Также выполним команду system(“log show --predicate ‘subsystem ==
-\\“com.apple.securityd\\”’ --last 1m”) дя вывода записей лога системы
+3\. Также выполним команду system("log show --predicate 'subsystem ==
+\\"com.apple.securityd\\"' --last 1m") дя вывода записей лога системы
 безопасности (securityd) за крайнюю минуту
 
 ``` r
